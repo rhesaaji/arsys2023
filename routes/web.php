@@ -39,7 +39,10 @@ Route::get('/user/profile/edit', \App\Http\Livewire\Arsys\User\Profile\Edit\Idx:
 Route::get('/admin/user', \App\Http\Livewire\Arsys\Admin\User\Idx::class)->name('arsys.admin.user');
 Route::get('/admin/config/institution', \App\Http\Livewire\Arsys\Admin\Config\Institution\Idx::class)->name('arsys.admin.config.institution');
 
-
+//ATJ
+Route::get('/atj/landing-page',\App\Http\Livewire\atj\Idx::class)->name('atj.home');
+Route::get('/Reviewer/landing-page',\App\Http\Livewire\Reviewer\Idx::class)->name('Reviewer.home');
+Route::get('/KBK/landing-page',\App\Http\Livewire\KBK\Idx::class)->name('kbk.home');
 
 
 

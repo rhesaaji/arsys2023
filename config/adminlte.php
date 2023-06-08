@@ -225,7 +225,26 @@ return [
     */
 
     'menu' => [
-       
+
+        [
+            'text'       => 'New',
+            'route'      => 'kbk.home',
+            'icon'      => 'far fa-fw fa-file',
+            //'roles'     => ['reviewer', 'committee','author'],
+        ],
+
+        [
+            'text'       => 'Reviewer',
+            'route'      => 'Reviewer.home',
+            'icon'      => 'far fa-fw fa-file',
+            //'roles'     => ['reviewer', 'committee','author'],
+        ],
+        [
+            'text'       => 'Aplikasi Teknologi Jaringan',
+            'route'      => 'atj.home',
+            'icon'      => 'far fa-fw fa-file',
+            //'roles'     => ['reviewer', 'committee','author'],
+        ],
 
   
         [
