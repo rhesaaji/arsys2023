@@ -227,22 +227,22 @@ return [
     'menu' => [
 
         [
-            'text'       => 'New',
+            'text'       => 'KBK New',
             'route'      => 'kbk.home',
-            'icon'      => 'far fa-fw fa-file',
+            'icon'      => 'far fa-fw fa-envelope',
             //'roles'     => ['reviewer', 'committee','author'],
         ],
 
         [
             'text'       => 'Reviewer',
             'route'      => 'Reviewer.home',
-            'icon'      => 'far fa-fw fa-file',
+            'icon'      => 'fas fa-user-check',
             //'roles'     => ['reviewer', 'committee','author'],
         ],
         [
-            'text'       => 'Aplikasi Teknologi Jaringan',
+            'text'       => 'ATJ',
             'route'      => 'atj.home',
-            'icon'      => 'far fa-fw fa-file',
+            'icon'      => 'fas fa-globe',
             //'roles'     => ['reviewer', 'committee','author'],
         ],
 
@@ -250,21 +250,21 @@ return [
         [
             'text'       => 'User Management',
             'route'      => 'arsys.admin.user',
-            'icon'      => 'far fa-fw fa-file',
+            'icon'      => 'far fa-fw fa-user',
             //'roles'     => ['reviewer', 'committee','author'],
         ],
 
         [
             'text'       => 'Institution',
             'route'      => 'arsys.admin.config.institution',
-            'icon'      => 'far fa-fw fa-file',
+            'icon'      => 'far fa-fw fa-building',
             //'roles'     => ['reviewer', 'committee','author'],
         ],
 
         [
             'text'       => 'Log out',
             'route'        => 'user.refresh',
-            'icon'      => 'far fa-fw fa-file',
+            'icon'      => 'far fa-fw fa-circle',
             //'roles'     => ['reviewer', 'committee','author'],
         ],
     ],
