@@ -38,15 +38,63 @@
                         <div>(jika belum di add ada tulisan the research reviewer should be assigned, jika sudah di add tampilkan nama dosen dan code dosen)</div>
                     </div>
                     <br>
-                    <div><button style="background-color: aqua"><i class="fas fa-user-plus"></i>Assign</button></div>
-                </div>
+                    <div>
+                        <button style="background-color: aqua" data-toggle="modal" data-target="#assignModal">
+                            <i class="fas fa-user-plus"></i>Assign
+                        </button>
+                    </div>
+                    
+                    <div class="modal fade" id="assignModal" tabindex="-1" role="dialog" aria-labelledby="assignModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="assignModalLabel">Modal Title</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Ini adalah konten dari pop-up.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    </div>
                 <div class="col-md-6">
                     <div><b>Supervisor of Student's Proposal</b>
                         <div>(jika belum di add ada tulisan the research reviewer should be assigned, jika sudah di add tampilkan nama dosen dan code dosen)</div>
                     </div>
                     <br>
-                    <div><button style="background-color: aqua"><i class="fas fa-user-plus"></i>Assign</button></div>
-                </div>
+                    <div>
+                        <button style="background-color: aqua" data-toggle="modal" data-target="#assignModal">
+                            <i class="fas fa-user-plus"></i>Assign
+                        </button>
+                    </div>
+                    
+                    <div class="modal fade" id="assignModal" tabindex="-1" role="dialog" aria-labelledby="assignModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="assignModalLabel">Modal Title</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Ini adalah konten dari pop-up.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    </div>
             </div>
             <br>
             <br>
