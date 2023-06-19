@@ -57,13 +57,13 @@
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="assignModalLabel">Modal Title</h5>
+                                        <h5 class="modal-title" id="assignModalLabel">Review Assignment</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        <p>Ini adalah konten dari pop-up.</p>
+                                        <p>@livewire('kbk.edit.name')</p>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -88,13 +88,13 @@
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="assignModalLabel">Modal Title</h5>
+                                        <h5 class="modal-title" id="assignModalLabel">Supervisor Assignment</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        <p>Ini adalah konten dari pop-up.</p>
+                                        <p>@livewire('kbk.supervisor.name')</p>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
