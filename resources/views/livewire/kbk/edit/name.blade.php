@@ -21,7 +21,8 @@
         <div class="col-md-11">
             <table id="customers">
               <thead>
-                <tr>
+                <tr> 
+                    <th>code</th>
                     <th>Nama Dosen</th>
                     <th>aggregate</th>
                     <th>action</th>
@@ -29,6 +30,7 @@
               </thead>
                <tbody>
                 <tr>
+                    <td>Code Dosen</td>
                     <td>Nama Dosen</td>
                     <td>Total mahasiswa yang sudah direview</td>
                     <td><button type="button" class="btn btn-tool" > <i class="fas fa-user-plus"></i></button>

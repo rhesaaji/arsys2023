@@ -11,9 +11,9 @@ class Student extends Model
     protected $fillable = ['user_id', 'program_id', 'specialization_id', 'supervisor_id', 'code',  'student_number', 'first_name', 'last_name', 'phone', 'email'];
     protected $table = 'arsys_student';
 
-    public function studyProgram()
+    public function program()
     {
-        return $this->hasOne(StudyProgram::class, 'id', 'program_id',);
+        return $this->belongsTo(StudyProgram::class, 'program_id', 'id',);
     }
     public function specialization() {
         return $this->belongsTo(StudySpecialization::class, 'specialization_id', 'id' );
