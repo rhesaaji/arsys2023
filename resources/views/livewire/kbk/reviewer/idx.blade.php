@@ -65,10 +65,7 @@
                                     <div class="modal-body">
                                         <p>@livewire('kbk.edit.name')</p>
                                     </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -79,12 +76,12 @@
                         </div>
                         <br>
                         <div>
-                            <button style="background-color: aqua" data-toggle="modal" data-target="#assignModal">
+                            <button style="background-color: aqua" data-toggle="modal" data-target="#assignModal-1">
                                 <i class="fas fa-user-plus"></i>Assign
                             </button>
                         </div>
                         
-                        <div class="modal fade" id="assignModal" tabindex="-1" role="dialog" aria-labelledby="assignModalLabel">
+                        <div class="modal fade" id="assignModal-1" tabindex="-1" role="dialog" aria-labelledby="assignModalLabel">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -96,10 +93,7 @@
                                     <div class="modal-body">
                                         <p>@livewire('kbk.supervisor.name')</p>
                                     </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
