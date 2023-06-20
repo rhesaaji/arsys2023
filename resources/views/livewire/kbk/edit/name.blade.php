@@ -1,3 +1,4 @@
+
 <div>
   <div>
     <div><b>Kode Jurusan.NIM</b> | Nama Mahasiswa</div>
@@ -29,13 +30,15 @@
                   </tr>
               </thead>
                <tbody>
+                @foreach($dosen as $index=>$item)
                 <tr>
-                    <td>Code Dosen</td>
-                    <td>Nama Dosen</td>
+                   <td class="text-blue"> <b>{{$item->code}}</b></td> 
+                    <td>{{$item->first_name}} {{$item->last_name}}</td>
                     <td>Total mahasiswa yang sudah direview</td>
                     <td><button type="button" class="btn btn-tool" > <i class="fas fa-user-plus"></i></button>
                    </td>
                   </tr>
+                  @endforeach
                </tbody>
                 
                 
