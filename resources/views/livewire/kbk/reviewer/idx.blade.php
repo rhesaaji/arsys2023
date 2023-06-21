@@ -3,7 +3,7 @@
         <ul class="navbar-nav ml-auto">
             <form class="form-inline ml-3">
             <div class="input-group input-group-sm">
-                <input class="form-control form-control-navbar" type="search" placeholder="Search student name" aria-label="Search Event Name">
+                <input class="form-control form-control-navbar" type="search" placeholder="Search student name" >
                 <div class="input-group-append">
                 <button class="btn btn-navbar" type="submit">
                     <i class="fas fa-search"></i>
@@ -129,7 +129,7 @@
             <div class="row">
                 <div><button style="background-color: rgba(205, 11, 11, 0.874);color:#ffff"><b>Reject</b></button></div>
                 <div style="width:1%"></div>
-                <div><button style="background-color: rgb(210, 159, 5);color:#080000"><b>Revise</b></button></div>
+                <div><button style="background-color: rgb(210, 159, 5);color:#ffff"><b>Revise</b></button></div>
                 <div style="width:1%"></div>
                 <div><button wire:click='tambah'style="background-color: rgba(7, 131, 177, 0.874);color:#ffff"><b>Presentation</b></button></div>
                 <div style="width:1%"></div><div><button style="background-color: rgba(6, 156, 48, 0.874);color:#ffff"><b>Approve</b></button></div>

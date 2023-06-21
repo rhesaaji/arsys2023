@@ -11,11 +11,20 @@
   </div>
   <br>
   <div>
+    <div class="input-group input-group-sm" style="width:45%">
+      <input class="form-control form-control-navbar" type="search" placeholder="Search reviewer name" >
+      <div class="input-group-append">
+      <button class="btn btn-navbar" type="submit">
+          <i class="fas fa-search"></i>
+      </button>
+      </div>
+      <br>
+      <br>
+  </div>
     <div>
         <button data-dismiss="modal"style="background-color: #18df11;color:#ffffff"  >
             <i class="fas fa-user-plus"></i>Assign All Member
         </button>
-        
     </div>
     <br>
     <div class="row">

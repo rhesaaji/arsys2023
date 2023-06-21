@@ -26,7 +26,7 @@
             </div>
           </div>
           <b>Judul Penelitian</b>
-          <div style="font-style:italic">File of proposal could be access &nbsp;<a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/1BsWl8BS-Eo41KRQrfNXpK94WxJclhc1q"><i class="fa fa-file-pdf"></i> <u>here</u></a></div>
+          <div style="font-style:italic">File of proposal could be access &nbsp;<a target="_blank" rel="noopener noreferrer" href="http://file.upi.edu/Direktori/FIP/JUR._PEND._LUAR_BIASA/196010151987101-ZULKIFLI_SIDIQ/Sistematika._proposal.pdf"><i class="fa fa-file-pdf"></i> <u>here</u></a></div>
         </div>
         <!-- /.card-header -->
         <div class="card-body"> 
@@ -102,7 +102,7 @@
             <div class="row">
                 <div><button style="background-color: rgba(205, 11, 11, 0.874);color:#ffff"><b>Reject</b></button></div>
                 <div style="width:1%"></div>
-                <div><button style="background-color: rgb(210, 159, 5);color:#080000"><b>Revise</b></button></div>
+                <div><button style="background-color: rgb(210, 159, 5);color:#ffff"><b>Revise</b></button></div>
                 <div style="width:1%"></div>
                 <div><button style="background-color: rgba(13, 93, 220, 0.874);color:#ffff"><b>Presentation</b></button></div>
                 <div style="width:1%">

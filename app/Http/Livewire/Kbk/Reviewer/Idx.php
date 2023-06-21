@@ -18,7 +18,7 @@ class Idx extends Component
 
     public function render()
     {
-        $this->data = History::orderBy('updated_at', 'desc')->take(2)->get();
+        $this->data = History::orderBy('updated_at', 'desc')->take(5)->get();
         return view('livewire.kbk.reviewer.idx');
     }
 
